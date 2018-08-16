@@ -22,3 +22,9 @@ PLUGINS = ["revealmd"]
 ```
 to your `pelicanconf.py` and your presentation will be automatically rendered
 for you.
+
+If you use git to manage your site, you could do something like
+```
+git submodule add git@github.com:brookskindle/pelican-revealmd.git plugins/revealmd
+```
+to install the plugin
