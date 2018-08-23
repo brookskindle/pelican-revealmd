@@ -25,6 +25,6 @@ for you.
 
 If you use git to manage your site, you could do something like
 ```
-git submodule add git@github.com:brookskindle/pelican-revealmd.git plugins/revealmd
+git submodule add https://github.com/brookskindle/pelican-revealmd.git plugins/revealmd
 ```
 to install the plugin
