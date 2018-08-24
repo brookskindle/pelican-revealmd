@@ -23,6 +23,16 @@ PLUGINS = ["revealmd"]
 to your `pelicanconf.py` and your presentation will be automatically rendered
 for you.
 
+You also need to use a blank html template instead of trying to embed the
+presentation within the templates provided by your theme. Revealmd provides a
+blank html template for this purpose, but in your configuration file, the
+templates path needs to be specified
+```python
+EXTRA_TEMPLATES_PATHS = [
+    "path/to/revealmd/templates",  # eg: "plugins/revealmd/templates"
+]
+```
+
 If you use git to manage your site, you could do something like
 ```
 git submodule add git@github.com:brookskindle/pelican-revealmd.git plugins/revealmd
