@@ -41,7 +41,7 @@ class RevealJSMarkdownReader(BaseReader):
             format="md",
             extra_args=[
                 "-s",
-                "-V", "revealjs-url=https://lab.hakim.se/reveal-js",
+                "-V", "revealjs-url=https://revealjs.com",
                 # "--slide-level", "2",
             ],
         )
